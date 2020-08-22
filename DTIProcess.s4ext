@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm git
 scmurl https://github.com/NIRALUser/DTIProcessToolkit.git
-scmrevision 07759976d6c926b9dd35ba22aa1f2c0837389056
+scmrevision release
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -15,7 +15,7 @@ scmrevision 07759976d6c926b9dd35ba22aa1f2c0837389056
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory DTIProcess-build
+build_subdirectory .
 
 # homepage
 homepage    http://www.nitrc.org/projects/dtiprocess
